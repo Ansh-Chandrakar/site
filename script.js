@@ -43,38 +43,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const myPhotos = [
-        "Album/IMG_20220918_163357.jpg",
-        "Album/IMG_20220918_170536.jpg",
-        "Album/IMG_20221127_070417.jpg",
-        "Album/IMG-20231130-WA0016.jpg",
-        "Album/PXL_20231103_151716316.jpg",
-        "Album/PXL_20231129_115846961.NIGHT.jpg",
-        "Album/PXL_20231220_074203952.MP.jpg",
-        "Album/PXL_20231227_131905740.NIGHT.jpg",
-        "Album/PXL_20240110_112412937.jpg",
-        "Album/PXL_20240118_145725633.jpg",
-        "Album/PXL_20240125_044921384.jpg",
-        "Album/PXL_20240404_132721072.jpg",
-        "Album/PXL_20240410_055743423.jpg",
-        "Album/PXL_20240713_105500606.jpg",
-        "Album/PXL_20240718_102523079.jpg",
-        "Album/PXL_20240718_112149759.jpg",
-        "Album/PXL_20241212_092753960.PORTRAIT.jpg",
-        "Album/PXL_20241213_041920283.RAW-01.COVER.jpg",
-        "Album/PXL_20241213_042639329.RAW-01.COVER.jpg",
-        "Album/PXL_20241213_074323916.RAW-01.COVER.jpg",
-        "Album/PXL_20241213_103320351.RAW-01.COVER.jpg",
-        "Album/PXL_20250118_100336812.jpg",
-        "Album/PXL_20250314_122645103.jpg",
-        "Album/PXL_20250320_171859006.jpg",
-        "Album/PXL_20250425_005055363.jpg",
-        "Album/PXL_20250623_144333490.jpg",
-        "Album/PXL_20250625_040805220.jpg",
-        "Album/PXL_20250715_065231170.jpg",
-        "Album/PXL_20250722_131550989.jpg",
-        "Album/PXL_20250829_040624709.jpg",
-        "Album/PXL_20251006_125642885.jpg",
-        "Album/Snapchat-1756550038.jpg"
+        "https://lh3.googleusercontent.com/d/1GW3uOgX9sZPe2HIpeae9QNxNMrsAlWEl",
+        "https://lh3.googleusercontent.com/d/1MLzKg4dok6jW92WDPFaxAeQBWXzBzXxL",
+        "https://lh3.googleusercontent.com/d/1PxEkLPGx0owXEj2uaDtXa1ip6kzsRRUT",
+        "https://lh3.googleusercontent.com/d/17L8fliQzbWhi7NQYN7UwbxK2s4nBsS9P",
+        "https://lh3.googleusercontent.com/d/1rTB4YmP6Ml4zFxVPDEPWVC7Iq6PoS6ic",
+        "https://lh3.googleusercontent.com/d/12Z_8RHQxefj0ECpsUVa8jrAgzlUrBu3V",
+        "https://lh3.googleusercontent.com/d/1S5mCSAb3KrFoyy8kF7rbRnKW9Y7ZYTMt",
+        "https://lh3.googleusercontent.com/d/1KAuygadH2b_JsE4xOD6axzgdRGTdJKrt",
+        "https://lh3.googleusercontent.com/d/1VfU6KtWhY6z56_0Gkd_OSFO8C_XdAY1Z",
+        "https://lh3.googleusercontent.com/d/1DGVWi5kQfxhpmEcWQER5jW5ltfFWw0Zc",
+        "https://lh3.googleusercontent.com/d/1X5QxGyL62PzgNiYKZZR4_dVESUS-YznW",
+        "https://lh3.googleusercontent.com/d/1g_khY9IpNAchR2LjJPl0hEXBcdzmA1L7",
+        "https://lh3.googleusercontent.com/d/1GRiTzu6FJdpykjTHU9kf7yLTaSFG9_mH",
+        "https://lh3.googleusercontent.com/d/1FIJoewVKor8zFwPPnZSGQ1t6e5_PcUe3",
+        "https://lh3.googleusercontent.com/d/1PMBah_Ub_dIXmCjzzvhp-jZ63dqLYzT8",
+        "https://lh3.googleusercontent.com/d/1hNuXjxAw3xlUd9ESy8ZUyL5QPOTJ_YAy",
+        "https://lh3.googleusercontent.com/d/1uE3mLC6UmIvwWPBPxYusg3arnHAU9fiI",
+        "https://lh3.googleusercontent.com/d/1HVvHOtKU5UfI5OTSabOVO8IIX-ZwMBMU",
+        "https://lh3.googleusercontent.com/d/1pRO3pe-ckyFFI_ngv-xRhacqm_5dS9mK",
+        "https://lh3.googleusercontent.com/d/1GAvpXN-9Jh1HKP7Qv1algpSNyUjz9f4Y",
+        "https://lh3.googleusercontent.com/d/1H9KEqwQnb_K6zoDjU_5G4YhAADSwZDZs",
+        "https://lh3.googleusercontent.com/d/1946XtUX_43JQ0-lxGXrFDmqe03FlVGYd",
+        "https://lh3.googleusercontent.com/d/1T30S6z48by64Mg2fG5I3TBlSxQA2trXZ",
+        "https://lh3.googleusercontent.com/d/1NM0MieVCDaRPDthDEHFwNWBYcSZbUsQ2",
+        "https://lh3.googleusercontent.com/d/16ME5Vm163rMctOy96ovg4Ka15AwqtMTO",
+        "https://lh3.googleusercontent.com/d/1CleAyny8BEuh6S_hS9Whpn46WpYzWwmZ",
+        "https://lh3.googleusercontent.com/d/1Lzqq4DFuCpuXsg0h4nw6KoZQIieWeRtB",
+        "https://lh3.googleusercontent.com/d/1xi-l7iqJvws8XiTsOZZUj_sTdjPphgyy",
+        "https://lh3.googleusercontent.com/d/1FkK3NrkMoK7g5b6YqtGKEF6YGSd_OFNI",
+        "https://lh3.googleusercontent.com/d/1mANyhqQqEJQrgzI6cTjkitzU1fbbZX5j",
+        "https://lh3.googleusercontent.com/d/1UBD2pSWUWn7UcN-Jchs3bxbP8JfeSwux",
+        "https://lh3.googleusercontent.com/d/1PjJllfCMOzIKWuC9iLUiRr9F3mcd6g_w"
+        // ... update all 32 links to this format
     ];
 
     function shuffleArray(array) {
@@ -95,9 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
         randomizedPhotos.forEach((photoSrc) => {
             const div = document.createElement('div');
             div.className = 'photo-item';
-            
-            // Note: The random 'wide' class logic was removed from here
-            // because the Masonry CSS now handles the layout perfectly!
 
             const img = document.createElement('img');
             img.src = photoSrc;
@@ -384,4 +382,3 @@ document.addEventListener('DOMContentLoaded', () => {
     initParticles();
     animateBackground();
 });
-
